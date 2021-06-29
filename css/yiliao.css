@@ -1,0 +1,73 @@
+@charset "utf-8";
+	ul {list-style-type: none;/*清除原有样式*/
+		margin-top: -4px;padding: 0;
+		overflow: hidden;
+		background-color:rgba(196,1,0,1.00);
+		width: 1515px;
+		margin-left: -5px;
+		}
+	    li {float: left;
+			width: 200px;
+			text-align: center;
+		   }
+		li a,.dropbtn  {display: block;
+  			  			padding:15px;
+  					    text-decoration: none;
+					    color: aliceblue;
+						font-size: 25px;
+            		    }
+		li a:hover, .dropdown:hover .dropbtn { background-color: red;}/*设置点击导航鼠标时的颜色*/
+		li .dropdown{display:inline-block;}
+		.dropdown-content{display:none;/*定义下拉导航样式*/
+		  				   position:absolute;
+						   background-color:#EF3B36;
+						   z-index:1;/*设置下拉导航中每个字的上下距离*/
+						   width: 200px;
+						 }
+		.dropdown-content a{color: rgba(2,0,1,0.8);
+		                    padding: 12px 16px;
+		 					text-decoration: none;/*清楚链接原有样式*/
+		 				    display: block;
+						    text-align: center;
+							}
+		.dropdown-content a:hover {background-color:aliceblue;}/*设置下拉导航鼠标点击时的颜色*/
+		.dropdown:hover .dropdown-content {display: block;}/*设置下拉导航显示的每个“块”元素*/
+		.main{text-indent: 2em;
+			letter-spacing: 2px;
+			line-height: 1.8;
+			padding:0 360px; 
+			font-size:20px;
+			padding-top:60px;
+			padding-bottom: 30px;
+			}/*开头样式设置*/
+		.picture{max-width: 240px;
+			float: right;
+			}/*党徽位置设置*/
+		.content{font-size:18px;
+			letter-spacing: 2px;
+			line-height: 1.6;
+			text-indent: 2em;
+			}/*描述样式设置*/
+		.graphic{max-width: 700px;
+			padding-left: 400px;
+			}/*图表样式设置*/
+		.circle{padding-top: 45px;
+			}/*框距离*/
+		.conbox{background-color: #EBF2F8;
+			margin-left: 240px;
+			margin-right: 240px;
+			padding-left: 40px;
+			padding-right: 40px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			}/*框*/
+		.footer{text-align: center;
+			    margin-top: 100px;
+			   }
+		iframe{border:0px;
+			  padding-left: 400px;
+			  }
+		p a{text-decoration: none;/*清除链接原有样式*/
+			    color: rgba(7,7,7,1.00);}
+		.link a{text-decoration: none;/*清除链接原有样式*/
+			    color: rgba(7,7,7,1.00);}
