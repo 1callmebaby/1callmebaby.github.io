@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			ul {list-style-type: none;/*清除原有样式*/
+			margin-top: -4px;padding: 0;
+			overflow: hidden;
+			background-color:rgba(196,1,0,1.00);
+			width: 1540px;
+			margin-left: -5px;
+		   }
+			li {float: left;
+				width: 200px;
+				text-align: center;
+			   }
+			li a,.dropbtn  {display: block;
+							padding:15px;
+							text-decoration: none;
+							color: aliceblue;
+							font-size: 25px;
+							}
+			li a:hover, .dropdown:hover .dropbtn { background-color: red;}/*设置点击导航鼠标时的颜色*/
+			li .dropdown{display:inline-block;}
+			.dropdown-content{display:none;/*定义下拉导航样式*/
+							   position:absolute;
+							   background-color:#EF3B36;
+							   z-index:1;/*设置下拉导航中每个字的上下距离*/
+							   width: 200px;
+							 }
+			.dropdown-content a{color: rgba(2,0,1,0.8);
+								padding: 12px 16px;
+								text-decoration: none;/*清楚链接原有样式*/
+								display: block;
+								text-align: center;
+								}
+			.dropdown-content a:hover {background-color:aliceblue;}/*设置下拉导航鼠标点击时的颜色*/
+			.dropdown:hover .dropdown-content {display: block;}/*设置下拉导航显示的每个“块”元素*/
+			::-webkit-scrollbar{
+				display: none;
+			}
+			#container{
+				width: 100vw;
+				height: auto;
+			}
+			section{
+				height: 100vh;
+				background-color: #a61b29;
+				color: #fff;
+				font-size: 60px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}/*框架和颜色图片*/
+			.text{
+				height: 100vh;
+				background-color: #a61b29;
+				color: #fff;
+				font-size: 30px;
+				display: flex;
+				align-items: center;
+				padding: 70px;
+				text-indent: 2em;
+				letter-spacing: 2px;
+				line-height: 100px;	
+			}/*文字的大小框架和颜色背景色*/
+			.img{
+				background-size: auto;
+				background-position: center;
+				overflow: hidden;
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				max-width: 100%;
+				user-select: none;
+				cursor: default;
+			}/*图片的位置，大小鼠标的样式*/
+			#img1{
+				background-image: url("../img/di1.jfif");
+				background-size: 1515px;
+			}/*id定位各个图片仅适用一次*/
+			#img2{
+				background-image: url("../img/di2.jpg");
+				background-size: 1515px;
+			}
+			#img3{
+				background-image: url("../img/di3.jfif");
+				background-size: 1515px;
+			}
+			#img4{
+				background-image: url("../img/di4.jfif");
+				background-size: 1515px;
+			}
+			#img5{
+				background-image: url("../img/di5.jfif");
+				background-size: 1515px;
+			}
+			#img6{
+				background-image: url("../img/di6.jfif");
+				background-size: 1515px;
+			}
+			#img7{
+				background-image: url("../img/di7.jfif");
+				background-size: 1515px;
+			}
+			#img8{
+				background-image: url("../img/di8.jfif");
+				background-size: 1515px;
+			}
+			#img9{
+				background-image: url("../img/di9.jpg");
+				background-size: 1515px;
+			}
+			#img10{
+				background-image: url("../img/di10.png");
+				background-size: 1515px;
+			}
+

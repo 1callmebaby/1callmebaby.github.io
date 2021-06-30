@@ -1,0 +1,193 @@
+@charset "utf-8";
+	/*=======================页眉============================*/
+		.header img{width: 1515px;margin-left: -5px;}/*图片宽度*/
+		ul {list-style-type: none;/*清除原有样式*/
+			margin-top: -4px;padding: 0;
+			overflow: hidden;
+			background-color:rgba(196,1,0,1.00);
+			width: 1515px;
+			margin-left: -5px;
+		   }
+	    li {float: left;
+			width: 200px;
+			text-align: center;
+		   }
+		li a,.dropbtn  {display: block;
+  			  			padding:15px;
+  					    text-decoration: none;
+					    color: aliceblue;
+						font-size: 25px;
+            		    }
+		li a:hover, .dropdown:hover .dropbtn { background-color: red;}/*设置点击导航鼠标时的颜色*/
+		li .dropdown{display:inline-block;}
+		.dropdown-content{display:none;/*定义下拉导航样式*/
+		  				   position:absolute;
+						   background-color:#EF3B36;
+						   z-index:1;/*设置下拉导航中每个字的上下距离*/
+						   width: 200px;
+						 }
+		.dropdown-content a{color: rgba(2,0,1,0.8);
+		                    padding: 12px 16px;
+		 					text-decoration: none;/*清楚链接原有样式*/
+		 				    display: block;
+						    text-align: center;
+							}
+		.dropdown-content a:hover {background-color:aliceblue;}/*设置下拉导航鼠标点击时的颜色*/
+		.dropdown:hover .dropdown-content {display: block;}/*设置下拉导航显示的每个“块”元素*/
+		/*=======================搜索框============================*/
+		#row{margin-left: 1350px;
+			margin-top: -65px;}
+		input[type="text"]{width:110px;height: 5px;
+						  padding: 15px;
+						  border-radius: 12px;
+						  }
+		/*=======================中国共产党发展史============================*/
+		.up-title{text-align: center;
+				  font-size: 40px;
+				  color: rgba(248,59,62,2.00);
+				  margin-top:100px;
+				 }
+		.up-text{text-align: center;
+			     font-size:35px;
+			     color: rgba(248,59,62,2.00);
+                 }
+		.entile{width: 1200px;
+			    margin-left: 150px;
+				margin-top:-10px;
+			    background:rgba(248,215,194,0.3);
+			    }
+		.history{margin-top: 50px;}
+		.title{color:red;
+		   	  letter-spacing: 5.6px;
+			  font-size:36px;
+			  text-align: center;
+			  }
+		.essay{padding-top: 45px;
+			   padding-left:100px;
+			   padding-right: 100px;
+			   letter-spacing: 1.32px;
+		       line-height: 2.4;
+			   font-size:18px;
+			   text-indent: 2em;}
+		/*=======时间轴========*/
+		.wrap{width: 1000px;
+			  position: relative;
+			  top: 100px;
+			  margin-left: 100px;
+			 }
+		.wrap::after{content: '';/*设置中心轴的样式*/
+			         position: absolute;
+					 top: -100px;
+					 left:50%;
+					 width: 5px;
+					 z-index: -999;
+					 height: 800px;
+					 background-color: rgba(23,22,22,1.00);
+				    }
+		.box{position: relative;
+			 width: 100%;
+			 height: 120px;
+			 margin-bottom: 50px;
+			 display:flex;
+			 justify-content: space-between;
+		    }
+		.left{position: relative;/*设置左边框框的样式*/
+			  width: 40%;
+			  height: 170px;
+			  border-radius: 15px;
+			  text-align: center;
+			  color:aliceblue;
+			  background:rgba(245,17,21,1.00);
+					}
+		.leftist{position: relative;
+			  width: 50%;
+			  height: 170px;
+			  border-radius: 15px;
+			  text-align: center;
+			  color:aliceblue;
+					}
+        .left h3{margin:1px;
+				font-size: 22px;}
+		.left p{text-align:left;
+			   font-size: 16px;
+			   line-height:21px;
+			   margin-left: 15px;
+			   }
+		.right{position: relative;/*设置右边框框的样式*/
+			   width:50%;
+			   height: 180px;
+			   border-radius: 15px;
+			   text-align: center;
+			   color:aliceblue;
+			   background:rgba(245,17,21,1.00);
+			   }
+		.right p{text-align: left;
+			     font-size: 16px;
+				 line-height: 21px;  
+			     margin-left: 15px;
+                }
+		.center{width: 20%;
+				display: flex;
+			    justify-content: center;/*设置中心框框的对齐方式*/
+				align-items: center;
+				font-size: 18px;
+				 }
+		.right h3{margin:1px;
+				  font-size: 22px;
+				  }
+		.center>span{width: 120px;/*设置右边中边框框的样式*/
+					border-radius: 10px;
+					text-align: center;
+			        font:900 24px;
+					line-height: 50px;
+					background:rgba(255,248,248,1.00);
+           			 }
+		.center>span-left{width: 120px;/*设置左边中心框框的样式*/
+						 border-radius: 10px;
+						 text-align: center;
+						 font:900 24px;
+						 line-height: 50px;
+						 background:rgba(255,248,248,1.00);
+						 margin-left: -800px; 
+						 }
+		/*=======================-习近平关于建党一百周年的重要讲话T===========================*/
+		.part{margin-top: 300px;}
+		.subtitle{color:red;
+			     letter-spacing: 5.6px;
+			     font-size:36px;
+			     text-align: center;
+				 }
+		/*===标题===*/
+		.box{margin-top:30px;}
+		.article img{float: left; margin-right: 50px;}
+		.article{padding-top: 45px; 
+			     padding-left: 100px;
+				 padding-right: 100px;
+				 letter-spacing: 1.32px;
+				 line-height: 2.4;
+				 font-size:18px;
+      			 }  
+		/*===内容===*/
+		.smalltitle{color:red;
+					letter-spacing: 5.6px;
+					font-size:36px;
+					text-align: center;
+					margin-top: 80px;
+					}
+		/*==================-第十九届中共中央组织结构图===========*/
+		.up{margin-top:800px;}
+		.graphic{max-width: 1120px;
+			     padding-left:40px;
+				 margin-top: 50px;
+				}
+		/*=======================页脚============================*/
+		.footer{text-align: center;
+			    margin-top: 100px;
+			   }
+		p a{text-decoration: none;/*清除链接原有样式*/
+			    color: rgba(7,7,7,1.00);}
+		.link a{text-decoration: none;/*清除链接原有样式*/
+			    color: rgba(7,7,7,1.00);
+			   }
+
+
