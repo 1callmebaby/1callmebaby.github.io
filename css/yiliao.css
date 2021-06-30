@@ -39,28 +39,31 @@
 			font-size:20px;
 			padding-top:60px;
 			padding-bottom: 30px;
+			color: white;
+			font-weight: 500;
 			}/*开头样式设置*/
-		.picture{max-width: 240px;
-			float: right;
-			}/*党徽位置设置*/
 		.content{font-size:18px;
 			letter-spacing: 2px;
 			line-height: 1.6;
 			text-indent: 2em;
+			width: 650px;
 			}/*描述样式设置*/
 		.graphic{max-width: 700px;
 			padding-left: 400px;
 			}/*图表样式设置*/
 		.circle{padding-top: 45px;
 			}/*框距离*/
-		.conbox{background-color: #EBF2F8;
-			margin-left: 240px;
-			margin-right: 240px;
-			padding-left: 40px;
-			padding-right: 40px;
-			padding-top: 10px;
-			padding-bottom: 10px;
+		.conbox{background-color: #FEFFEE;
+			margin-left: 350px;
+			width: 720px;
+			padding-left: 75px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			margin-top: 20px;
 			}/*框*/
+		.box{background-image: url("../img/bcak.jpg");
+			background-size: cover;
+				}
 		.footer{text-align: center;
 			    margin-top: 100px;
 			   }
